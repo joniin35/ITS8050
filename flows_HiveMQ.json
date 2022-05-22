@@ -1,0 +1,414 @@
+[
+    {
+        "id": "cfe2ceff38aca183",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b1cfeda507a45af1",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8ff044342cc3f4dc",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "7ab9f76651b80a17",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7ab9f76651b80a17",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2b216ba77e3b0fcf",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d8edd38f0ef3fe28",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "7ab9f76651b80a17",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cb49032a52af5c67",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "b379936f66c74f2d8a920f9b0b44d437.s2.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "e23e1c39927992e3",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e23e1c39927992e3",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "mqtt-client-cert.crt",
+        "keyname": "mqtt-client-key.pem",
+        "caname": "mqtt-client-cert.crt",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "a05aa3b7fb7c0774",
+        "type": "ui_button",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "group": "8ff044342cc3f4dc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "1 ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 120,
+        "wires": [
+            [
+                "39139bd8aaf9e289"
+            ]
+        ]
+    },
+    {
+        "id": "a51dc42b28e8c882",
+        "type": "ui_button",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "group": "d8edd38f0ef3fe28",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "1 OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "39139bd8aaf9e289"
+            ]
+        ]
+    },
+    {
+        "id": "39139bd8aaf9e289",
+        "type": "mqtt out",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "topic": "projekt-ulesanne__hazi-feladat_2022-spring-its8050/LEDSTATE",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cb49032a52af5c67",
+        "x": 1010,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "2f5e6e0a5568b349",
+        "type": "mqtt in",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "topic": "projekt-ulesanne__hazi-feladat_2022-spring-its8050/LEDSTATE",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "cb49032a52af5c67",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 440,
+        "y": 480,
+        "wires": [
+            [
+                "0ad938927d27e8f2",
+                "40a3b41db625fd41"
+            ]
+        ]
+    },
+    {
+        "id": "40a3b41db625fd41",
+        "type": "rpi-gpio out",
+        "z": "cfe2ceff38aca183",
+        "name": "LED",
+        "pin": "23",
+        "set": false,
+        "level": "0",
+        "freq": "",
+        "out": "out",
+        "bcm": true,
+        "x": 910,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "0ad938927d27e8f2",
+        "type": "debug",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "eab95b2cc1acb46f",
+        "type": "rpi-gpio in",
+        "z": "cfe2ceff38aca183",
+        "name": "SWITCH",
+        "pin": "21",
+        "intype": "up",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 280,
+        "y": 580,
+        "wires": [
+            [
+                "fc554ed11686535d"
+            ]
+        ]
+    },
+    {
+        "id": "ce30ece0d027f2eb",
+        "type": "mqtt in",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "topic": "projekt-ulesanne__hazi-feladat_2022-spring-its8050/PHYswitch",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "cb49032a52af5c67",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 260,
+        "wires": [
+            [
+                "e8963ab57160d842"
+            ]
+        ]
+    },
+    {
+        "id": "e8963ab57160d842",
+        "type": "ui_gauge",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "group": "8ff044342cc3f4dc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 840,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "fc554ed11686535d",
+        "type": "mqtt out",
+        "z": "cfe2ceff38aca183",
+        "name": "",
+        "topic": "projekt-ulesanne__hazi-feladat_2022-spring-its8050/PHYswitch",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cb49032a52af5c67",
+        "x": 870,
+        "y": 620,
+        "wires": []
+    }
+]
